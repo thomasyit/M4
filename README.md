@@ -42,3 +42,8 @@ Notes
 - Trailing stop: `ENABLE_TRAIL_STOP`, `TRAIL_STOP_ATR_MULT`, `TRAIL_POLL_SEC` (polls Binance price).
 - Default schedule runs at 08:01 Asia/Singapore and every 4 hours (6 times/day). Use `--schedule interval` for fixed intervals.
 - MCP alternative (optional): see docs/mcp_setup.md for how to wire the Hummingbot MCP server if you want interactive checks via Codex CLI. The bot still uses direct REST calls by default.
+
+Notes
+- Local config is stored in `.env` and is intentionally excluded from git.
+- Runtime data, logs, and cached OHLCV live under `state/` and `binance_historical/` and are excluded from git.
+- Use `.env.example` as a template for required environment variables.
