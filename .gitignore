@@ -1,0 +1,8 @@
+.env
+.env.*
+state/
+__pycache__/
+*.pyc
+binance_historical/
+bot/.tmp_*
+**/__pycache__/
